@@ -4,15 +4,22 @@
     <meta charset="utf-8">
     <title>Facel</title>
     <script type="text/javascript">
-        var segmentCount = 0;
+        var segmentCount = 2;
         var l = window.location;
-        l.replace(
-            l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+        var replacing = l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
             l.pathname.split('/').slice(0, 1 + segmentCount).join('/') + '/?p=/' +
             l.pathname.slice(1).split('/').slice(segmentCount).join('/').replace(/&/g, '~and~') +
             (l.search ? '&q=' + l.search.slice(1).replace(/&/g, '~and~') : '') +
             l.hash
-        );
+
+        var final = replacing.replace("/search/ru", "")
+            .replace("/search/en", "")
+            .replace("/search/fr", "")
+            .replace("/search/it", "")
+            .replace("/search/de", "")
+            .replace("/search/es", "")
+
+        l.replace(final);
     </script>
 </head>
 <body>
