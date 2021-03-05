@@ -1,54 +1,74 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
-    <url>
-        <loc>https://facel.tech/</loc>
-    </url>
-
-    <url>
-        <loc>https://facel.tech/#/instructions</loc>
-    </url>
-
-    <url>
-        <loc>https://facel.tech/#/characteristics</loc>
-    </url>
-
-    <url>
-        <loc>https://facel.tech/#/team</loc>
-    </url>
-
-    <url>
-        <loc>https://facel.tech/#/about</loc>
-    </url>
-
-    <url>
-        <loc>https://facel.tech/#/contact</loc>
-    </url>
-
-    <url>
-        <loc>https://facel.tech/#/stuff</loc>
-    </url>
-
-    <url>
-        <loc>https://facel.tech/#/merch</loc>
-    </url>
-
-    <url>
-        <loc>https://facel.tech/#/roadmap</loc>
-    </url>
-
-    <url>
-        <loc>https://facel.tech/#/controller</loc>
-    </url>
-
-    <url>
-        <loc>https://facel.tech/#/policy</loc>
-    </url>
-
-    <url>
-        <loc>https://facel.tech/#/agreement</loc>
-    </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>https://facel.tech/search/fr/index.html</loc>
+	</url>
+	<url>
+		<loc>https://facel.tech/search/fr/team.html</loc>
+	</url>
+	<url>
+		<loc>https://facel.tech/search/fr/about.html</loc>
+	</url>
+	<url>
+		<loc>https://facel.tech/search/fr/contact.html</loc>
+	</url>
+	<url>
+		<loc>https://facel.tech/search/en/index.html</loc>
+	</url>
+	<url>
+		<loc>https://facel.tech/search/en/team.html</loc>
+	</url>
+	<url>
+		<loc>https://facel.tech/search/en/about.html</loc>
+	</url>
+	<url>
+		<loc>https://facel.tech/search/en/contact.html</loc>
+	</url>
+	<url>
+		<loc>https://facel.tech/search/es/index.html</loc>
+	</url>
+	<url>
+		<loc>https://facel.tech/search/es/team.html</loc>
+	</url>
+	<url>
+		<loc>https://facel.tech/search/es/about.html</loc>
+	</url>
+	<url>
+		<loc>https://facel.tech/search/es/contact.html</loc>
+	</url>
+	<url>
+		<loc>https://facel.tech/search/de/index.html</loc>
+	</url>
+	<url>
+		<loc>https://facel.tech/search/de/team.html</loc>
+	</url>
+	<url>
+		<loc>https://facel.tech/search/de/about.html</loc>
+	</url>
+	<url>
+		<loc>https://facel.tech/search/de/contact.html</loc>
+	</url>
+	<url>
+		<loc>https://facel.tech/search/it/index.html</loc>
+	</url>
+	<url>
+		<loc>https://facel.tech/search/it/team.html</loc>
+	</url>
+	<url>
+		<loc>https://facel.tech/search/it/about.html</loc>
+	</url>
+	<url>
+		<loc>https://facel.tech/search/it/contact.html</loc>
+	</url>
+	<url>
+		<loc>https://facel.tech/search/ru/index.html</loc>
+	</url>
+	<url>
+		<loc>https://facel.tech/search/ru/team.html</loc>
+	</url>
+	<url>
+		<loc>https://facel.tech/search/ru/about.html</loc>
+	</url>
+	<url>
+		<loc>https://facel.tech/search/ru/contact.html</loc>
+	</url>
 </urlset>
