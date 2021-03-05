@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <script type="text/javascript">
+   var segmentCount = 2;
+        var l = window.location;
+        var replacing = l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+            l.pathname.split('/').slice(0, 1 + segmentCount).join('/') + '/?p=/' +
+            l.pathname.slice(1).split('/').slice(segmentCount).join('/').replace(/&/g, '~and~') +
+            (l.search ? '&q=' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+            l.hash
+
+        var final = replacing.replace("/search/ru", "")
+            .replace("/search/en", "")
+            .replace("/search/fr", "")
+            .replace("/search/it", "")
+            .replace("/search/de", "")
+            .replace("/search/es", "")
+
+        l.replace(final);
+  </script>
+  <title>
+   Facel — Control the world with your eyes
+  </title>
+  <meta content="Facel — Control the world with your eyes" name="title"/>
+  <meta content="Facel — Control the world with your eyes" property="og:title"/>
+  <meta content="Facel — Control the world with your eyes" property="twitter:title"/>
+  <meta content="Our device tracks your health (stress, concentration, fatigue of organism and eyes) and controls gadgets with combinations of facial gestures" name="description"/>
+  <meta content="Our device tracks your health (stress, concentration, fatigue of organism and eyes) and controls gadgets with combinations of facial gestures" property="og:description"/>
+  <meta content="Our device tracks your health (stress, concentration, fatigue of organism and eyes) and controls gadgets with combinations of facial gestures" property="twitter:description"/>
+  <meta content="Neurointerface, health, Internet of things, neural network" name="keywords"/>
+  <meta content="images/seo/en.png" property="og:image"/>
+  <meta content="images/seo/en.png" property="twitter:image"/>
+  <meta content="website" property="og:type"/>
+  <meta content="https://facel.tech/" property="og:url"/>
+  <meta content="summary_large_image" property="twitter:card"/>
+  <meta content="https://facel.tech/" property="twitter:url"/>
+ </head>
+ <body>
+ </body>
+</html>

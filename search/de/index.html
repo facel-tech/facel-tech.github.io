@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <script type="text/javascript">
+   var segmentCount = 2;
+        var l = window.location;
+        var replacing = l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+            l.pathname.split('/').slice(0, 1 + segmentCount).join('/') + '/?p=/' +
+            l.pathname.slice(1).split('/').slice(segmentCount).join('/').replace(/&/g, '~and~') +
+            (l.search ? '&q=' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+            l.hash
+
+        var final = replacing.replace("/search/ru", "")
+            .replace("/search/en", "")
+            .replace("/search/fr", "")
+            .replace("/search/it", "")
+            .replace("/search/de", "")
+            .replace("/search/es", "")
+
+        l.replace(final);
+  </script>
+  <title>
+   Facel — Kontrolliere die Welt mit deinen Augen
+  </title>
+  <meta content="Facel — Kontrolliere die Welt mit deinen Augen" name="title"/>
+  <meta content="Facel — Kontrolliere die Welt mit deinen Augen" property="og:title"/>
+  <meta content="Facel — Kontrolliere die Welt mit deinen Augen" property="twitter:title"/>
+  <meta content="Unser Gerät erfasst Ihre Gesundheit (Stress, Konzentration, Müdigkeit des Organismus und der Augen) und steuert Geräte mit Kombinationen von Gesichtsgesten" name="description"/>
+  <meta content="Unser Gerät erfasst Ihre Gesundheit (Stress, Konzentration, Müdigkeit des Organismus und der Augen) und steuert Geräte mit Kombinationen von Gesichtsgesten" property="og:description"/>
+  <meta content="Unser Gerät erfasst Ihre Gesundheit (Stress, Konzentration, Müdigkeit des Organismus und der Augen) und steuert Geräte mit Kombinationen von Gesichtsgesten" property="twitter:description"/>
+  <meta content="Neurointerface, Gesundheit, Internet der Dinge, neuronales Netzwerk" name="keywords"/>
+  <meta content="images/seo/de.png" property="og:image"/>
+  <meta content="images/seo/de.png" property="twitter:image"/>
+  <meta content="website" property="og:type"/>
+  <meta content="https://facel.tech/" property="og:url"/>
+  <meta content="summary_large_image" property="twitter:card"/>
+  <meta content="https://facel.tech/" property="twitter:url"/>
+ </head>
+ <body>
+ </body>
+</html>

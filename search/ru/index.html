@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <script type="text/javascript">
+   var segmentCount = 2;
+        var l = window.location;
+        var replacing = l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+            l.pathname.split('/').slice(0, 1 + segmentCount).join('/') + '/?p=/' +
+            l.pathname.slice(1).split('/').slice(segmentCount).join('/').replace(/&/g, '~and~') +
+            (l.search ? '&q=' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+            l.hash
+
+        var final = replacing.replace("/search/ru", "")
+            .replace("/search/en", "")
+            .replace("/search/fr", "")
+            .replace("/search/it", "")
+            .replace("/search/de", "")
+            .replace("/search/es", "")
+
+        l.replace(final);
+  </script>
+  <title>
+   Facel — Управляй миром мимикой
+  </title>
+  <meta content="Facel — Управляй миром мимикой" name="title"/>
+  <meta content="Facel — Управляй миром мимикой" property="og:title"/>
+  <meta content="Facel — Управляй миром мимикой" property="twitter:title"/>
+  <meta content="Наше устройство отслеживает здоровье (стресс, концентрацию, усталость организма и усталость глаз) и управляет техникой комбинациями жестов (например, вы моргнули и у вас включилась музыка)" name="description"/>
+  <meta content="Наше устройство отслеживает здоровье (стресс, концентрацию, усталость организма и усталость глаз) и управляет техникой комбинациями жестов (например, вы моргнули и у вас включилась музыка)" property="og:description"/>
+  <meta content="Наше устройство отслеживает здоровье (стресс, концентрацию, усталость организма и усталость глаз) и управляет техникой комбинациями жестов (например, вы моргнули и у вас включилась музыка)" property="twitter:description"/>
+  <meta content="Нейроинтерфейс, здоровье, интернет вещей, нейросеть" name="keywords"/>
+  <meta content="images/seo/ru.png" property="og:image"/>
+  <meta content="images/seo/ru.png" property="twitter:image"/>
+  <meta content="website" property="og:type"/>
+  <meta content="https://facel.tech/" property="og:url"/>
+  <meta content="summary_large_image" property="twitter:card"/>
+  <meta content="https://facel.tech/" property="twitter:url"/>
+ </head>
+ <body>
+ </body>
+</html>
